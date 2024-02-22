@@ -5,8 +5,10 @@ import './App.css'
 
 
 function App() {
+
+    document.body.classList.add('light-mode')
     return (
-        <div>
+        <div>         
             <Calculate/>
             <ChangeMode />
         </div>
