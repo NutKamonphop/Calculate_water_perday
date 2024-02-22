@@ -8,10 +8,10 @@ function App() {
 
     document.body.classList.add('light-mode')
     return (
-        <div>         
+        <>         
             <Calculate/>
             <ChangeMode />
-        </div>
+        </>
     )
 }
 
