@@ -4,8 +4,6 @@ import { ChangeMode } from './components/ChangeMode'
 import './App.css'
 
 
-
-
 function App() {
     return (
         <div>

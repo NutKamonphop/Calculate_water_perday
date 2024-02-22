@@ -35,14 +35,13 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-text-size-adjust: 100%;
-
 	--transition: 0.5s ease-in-out;
 }
 
 body {
 	background-color: var(--bg);
 	color: var(--text);
-	transition: background-image var(--transition), background-color var(--transition), color var(--transition);
+	transition: background-color var(--transition), color var(--transition);
 }
 
 form {
@@ -83,7 +82,7 @@ input {
 	color: var(--btn-theme-text);
 }
 
-.sub-btn {
+.btn-sub {
   margin-top: .8em;
   border-radius: 18px;
   padding: .6em 3.4em;
