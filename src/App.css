@@ -8,6 +8,7 @@
 }
 
 .light-mode {
+	--bg-img: url(https://images.pexels.com/photos/40784/drops-of-water-water-nature-liquid-40784.jpeg?auto=compress&cs=tinysrgb&w=1600);
 	--input-bg: #ffffff88 !important;
 }
 
