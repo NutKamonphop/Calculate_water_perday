@@ -23,7 +23,7 @@ const Calculate = () => {
             <h2>{Result} มล.</h2>
             <input type="number" id="Weight" name="Weight" placeholder='Weight (KG)' onChange={onChangeWeight}/>
             <br />
-            <button type='submit'>Calculate</button>          
+            <button className='sub-btn' type='submit'>Calculate</button>          
           </form>
         </div>
         </>

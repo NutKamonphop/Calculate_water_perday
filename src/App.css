@@ -1,8 +1,34 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+	--transition: 0.5s ease-in-out;
 }
 
+#root {
+	margin: 0 auto;
+	padding: 2rem;
+}
 
+.light-mode {
+	--input-bg: #ffffff88 !important;
+}
+
+.dark-mode {
+	--input-bg: #00000088 !important;
+}
+
+body {
+	height: 100vh;
+}
+
+.theme-toggler-div {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+}
+
+@media (max-width: 576px) {
+	.theme-toggler-div {
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+	}
+}
